@@ -58,7 +58,7 @@ const Home = () => {
   ];
 
   return (
-    <div className="relative">
+    <div className="relative mt-10">
       <section className="relative min-h-screen flex items-center justify-center pt-20 pb-20 overflow-hidden bg-gradient-to-br from-orange-50 via-pink-50 to-yellow-50 ">
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">

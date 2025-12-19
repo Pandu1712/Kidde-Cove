@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
-
+import logo from "../public/Kidde-Cove-Logo.jpg"
 interface NavbarProps {
   currentPage: string;
 }
@@ -41,7 +41,7 @@ const Navbar = ({ currentPage }: NavbarProps) => {
  {/* LOGO */}
 <div className="h-16 flex items-center">
   <img
-    src="./src/public/Kidde-Cove-Logo.jpg   "
+    src={logo}
     alt="Kiddie-Cove Logo"
     className="h-full w-auto object-contain"
   />
