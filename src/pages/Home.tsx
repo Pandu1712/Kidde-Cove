@@ -51,7 +51,7 @@ const Home = () => {
   ];
 
   return (
-    <div className="relative mt-14">
+    <div className="relative mt-28">
   <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
 
   {/* ================= BACKGROUND IMAGE ================= */}
@@ -59,7 +59,7 @@ const Home = () => {
     className="absolute inset-0 bg-cover bg-center"
     style={{
       backgroundImage:
-        "url(https://images.pexels.com/photos/8613090/pexels-photo-8613090.jpeg?auto=compress&cs=tinysrgb&w=1600)",
+        "url(https://res.cloudinary.com/dd4oiwnep/image/upload/v1766241430/ChatGPT_Image_Dec_20_2025_08_06_51_PM_h23dl9.png)",
     }}
   />
 
@@ -161,7 +161,7 @@ const Home = () => {
           పిల్లల బలహీనులు కారు, ఉపాద్యాయుడు నిజమైన ప్రేరేపకుడు 
 
         </p>
-         <p className="text-xl lg:text-2xl font-semibold text-gray-800 leading-relaxed">
+         <p className="text-xl lg:text-xl font-semibold text-gray-800 leading-relaxed">
           అవకాశం ఉన్న చోట అభివృద్ధి సావధానంగా ఎదురుచూస్తుంది
         </p>
       </div>
@@ -224,28 +224,45 @@ const Home = () => {
         </div>
       </section> */}
 
-      <section className="py-20 bg-gradient-to-br from-orange-50 via-pink-50 to-yellow-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center animate-fadeInUp">
-            <Music className="w-16 h-16 mx-auto mb-6 text-orange-500" />
-            <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
-             Concerned about your child's development?
+      <section
+  className="relative py-24 bg-center bg-cover bg-no-repeat"
+  style={{
+    backgroundImage:
+      "url('https://images.pexels.com/photos/8613090/pexels-photo-8613090.jpeg?auto=compress&cs=tinysrgb&w=1600')",
+  }}
+>
+  {/* Overlay */}
+  <div className="absolute inset-0 bg-black/50"></div>
 
-            </h2>
-            <p className="text-xl text-gray-600 mb-8">
-              Enhance Speech, Behaviour, Motor, and Social Skills With Professional Care and Support!
+  <div className="relative container mx-auto px-4">
+    <div className="max-w-4xl mx-auto text-center animate-fadeInUp text-white">
 
-            </p>
-            <a
-              href="#contact"
-              className="inline-flex items-center space-x-2 bg-gradient-to-r from-orange-500 to-pink-500 text-white px-10 py-4 rounded-full hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
-            >
-              <span className="font-semibold text-lg">Schedule a visit today.</span>
-              <ArrowRight size={20} />
-            </a>
-          </div>
-        </div>
-      </section>
+      {/* Icon */}
+      <Music className="w-16 h-16 mx-auto mb-6 text-orange-400" />
+
+      {/* Heading */}
+      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-snug">
+        Concerned about your child’s development?
+      </h2>
+
+      {/* Sub text */}
+      <p className="text-lg sm:text-xl text-white/90 mb-10 max-w-3xl mx-auto">
+        Enhance speech, behaviour, motor, and social skills with professional care
+        and compassionate support.
+      </p>
+
+      {/* CTA */}
+      <a
+        href="#contact"
+        className="inline-flex items-center gap-3 bg-gradient-to-r from-orange-500 to-pink-500 text-white px-10 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
+      >
+        Schedule a Visit Today
+        <ArrowRight size={20} />
+      </a>
+    </div>
+  </div>
+</section>
+
     </div>
   );
 };

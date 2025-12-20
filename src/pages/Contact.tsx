@@ -288,20 +288,42 @@ const Contact = () => {
       </section>
 
       <section className="py-20 bg-gradient-to-br from-orange-50 via-pink-50 to-yellow-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center animate-fadeInUp">
-            <h2 className="text-4xl font-bold text-gray-800 mb-6">Visit Our Center</h2>
-            <p className="text-xl text-gray-600 mb-8">
-              Schedule a personal tour and see our wonderful facilities in person
-            </p>
-            <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
-              <div className="aspect-video bg-gray-200 flex items-center justify-center">
-                <MapPin className="text-gray-400" size={64} />
-              </div>
-            </div>
-          </div>
+  <div className="container mx-auto px-4">
+    <div className="max-w-5xl mx-auto text-center animate-fadeInUp">
+
+      {/* Heading */}
+      <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
+        Visit Our Center
+      </h2>
+
+      {/* Sub text */}
+      <p className="text-lg lg:text-xl text-gray-600 mb-10">
+        Schedule a personal tour and experience our nurturing environment in person.
+      </p>
+
+      {/* Map Card */}
+      <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
+        <div className="relative w-full h-[300px] sm:h-[380px] lg:h-[450px]">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3443.6333093654966!2d78.3684795!3d17.491339!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb930061477d89%3A0x7d4f2efc95f168a3!2sKiddie%20Cove%20Child%20Development%20Center!5e1!3m2!1sen!2sin!4v1766241677852!5m2!1sen!2sin"
+            className="absolute inset-0 w-full h-full border-0"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            allowFullScreen
+            title="Kiddie Cove Child Development Center Location"
+          />
         </div>
-      </section>
+      </div>
+
+      {/* Optional Address */}
+      <p className="mt-6 text-gray-700 text-base">
+        📍 Kiddie Cove Child Development Center, Hyderabad
+      </p>
+
+    </div>
+  </div>
+</section>
+
     </div>
   );
 };
