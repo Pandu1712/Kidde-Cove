@@ -43,7 +43,7 @@ export const servicesData: Service[] = [
         </blockquote>
 
         <p>
-          Speech Therapy at Kiddie Cove is designed to help children communicate
+          Speech Therapy at<b> <strong>Kiddie-Cove</strong></b> is designed to help children communicate
           with clarity, confidence, and ease. Our therapists work closely with
           each child to understand their individual strengths and areas of need.
         </p>
@@ -54,22 +54,27 @@ export const servicesData: Service[] = [
           progress.
         </p>
 
-        <p>
-          We work on articulation, speech clarity, language development,
-          vocabulary building, and both expressive and receptive language skills.
-          Sessions are engaging and play-based, allowing children to learn
-          naturally while staying motivated in a supportive environment.
-        </p>
+        <p className="text-gray-700 leading-relaxed">
+  We work on{" "}
+  <strong className="font-semibold text-gray-900">
+    articulation, speech clarity, language development,
+    vocabulary building, and both expressive and receptive language skills.
+  </strong>{" "}
+  Sessions are engaging and play-based, allowing children to learn
+  naturally while staying motivated in a supportive environment.
+</p>
+
 
         <p>
-          Speech therapy also focuses on social communication, helping children
+        Speech therapy also focuses on <strong>social communication</strong>, helping children
+
           express their thoughts, needs, and emotions effectively in everyday
           situations. Parents are actively involved through guidance and
           practical home strategies.
         </p>
 
         <p>
-          At Kiddie Cove, we believe that helping a child find their voice is the
+          At <strong><strong>Kiddie-Cove</strong></strong>, we believe that helping a child find their voice is the
           first step toward building confidence and connection.
         </p>
 
@@ -107,7 +112,7 @@ export const servicesData: Service[] = [
         </blockquote>
 
         <p>
-          Behavioural Modification Therapy at Kiddie Cove focuses on helping
+          Behavioural Modification Therapy at <strong>Kiddie-Cove</strong> focuses on helping
           children develop positive behaviours, emotional balance, and effective
           responses to everyday situations.
         </p>
@@ -124,7 +129,7 @@ export const servicesData: Service[] = [
         </p>
 
         <p>
-          At Kiddie Cove, behavioural therapy is not about correction — it is
+          At <strong>Kiddie-Cove</strong>, behavioural therapy is not about correction — it is
           about understanding, guidance, and empowerment.
         </p>
 
@@ -163,7 +168,7 @@ export const servicesData: Service[] = [
         </blockquote>
 
         <p>
-          Occupational Therapy at Kiddie Cove helps children participate
+          Occupational Therapy at <strong><strong>Kiddie-Cove</strong></strong> helps children participate
           independently and confidently in everyday activities.
         </p>
 
@@ -214,7 +219,7 @@ export const servicesData: Service[] = [
         </blockquote>
 
         <p>
-          ABA Therapy at Kiddie Cove is an evidence-based approach that supports
+          ABA Therapy at <strong><strong>Kiddie-Cove</strong></strong> is an evidence-based approach that supports
           communication, adaptive behaviour, and skill development.
         </p>
 
@@ -263,7 +268,7 @@ export const servicesData: Service[] = [
         </blockquote>
 
         <p>
-          Special Education at Kiddie Cove provides individualized academic and
+          Special Education at <strong><strong>Kiddie-Cove</strong></strong> provides individualized academic and
           developmental support tailored to each child’s learning abilities.
         </p>
 
@@ -308,7 +313,7 @@ export const servicesData: Service[] = [
         </blockquote>
 
         <p>
-          Physiotherapy at Kiddie Cove supports strength, balance, coordination,
+          Physiotherapy at <strong>Kiddie-Cove</strong> supports strength, balance, coordination,
           and functional movement through goal-oriented therapy.
         </p>
 
