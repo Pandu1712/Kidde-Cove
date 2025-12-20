@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Facebook, Instagram, Twitter, Clock } from 'lucide-react';
+import { MapPin, Phone, Mail, Facebook, Instagram, Twitter,Linkedin,Youtube, Clock } from 'lucide-react';
 
 const Footer = () => {
   const navLinks = [
@@ -31,22 +31,37 @@ const Footer = () => {
             </p>
             <div className="flex space-x-3">
               <a
-                href="#"
+                href="https://www.facebook.com/share/1DoiVNXbqf/ "
                 className="w-9 h-9 bg-white rounded-full flex items-center justify-center text-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-110"
               >
                 <Facebook size={18} />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/kiddiecovecdc?igsh=bzB3dWg5MXVkbTFz"
                 className="w-9 h-9 bg-white rounded-full flex items-center justify-center text-pink-600 hover:bg-pink-600 hover:text-white transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-110"
               >
                 <Instagram size={18} />
               </a>
               <a
-                href="#"
+                href="https://x.com/kiddiecovecdc"
                 className="w-9 h-9 bg-white rounded-full flex items-center justify-center text-blue-400 hover:bg-blue-400 hover:text-white transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-110"
               >
                 <Twitter size={18} />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/kiddiecove-cdc-0270553a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+                className="w-9 h-9 bg-white rounded-full flex items-center justify-center text-blue-400 hover:bg-blue-400 hover:text-white transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-110"
+              >
+                <Linkedin size={18} />
+              </a>
+
+
+              <a
+                href="https://youtube.com/@kiddiecovecdc?si=GQwpxqe9jymjYBxo"
+                className="w-9 h-9 bg-white rounded-full flex items-center justify-center text-blue-400 hover:bg-blue-400 hover:text-white transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-110"
+              >
+                <Youtube size={18} />
               </a>
             </div>
           </div>
