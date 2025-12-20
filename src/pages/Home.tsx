@@ -3,7 +3,7 @@ import About from './About';
 import Services from './Services';
 import Gallery from './Gallery';
 import Blog from './Blog';
-
+import Contacts from './Contact';
 const Home = () => {
   const features = [
     {
@@ -262,6 +262,7 @@ const Home = () => {
     </div>
   </div>
 </section>
+<Contacts/>
 
     </div>
   );
