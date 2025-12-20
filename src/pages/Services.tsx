@@ -25,11 +25,11 @@ const Services = () => {
               }}
               className="bg-white rounded-3xl shadow-lg cursor-pointer hover:shadow-2xl transition-all hover:-translate-y-1"
             >
-              <img
+              {/* <img
                 src={service.images[0]}
                 alt={service.title}
                 className="h-48 w-full object-cover rounded-t-3xl"
-              />
+              /> */}
 
               <div className="p-6 text-center">
                 <div className="w-14 h-14 mx-auto bg-gradient-to-br from-orange-400 to-pink-500 rounded-full flex items-center justify-center mb-4">
@@ -49,6 +49,11 @@ const Services = () => {
 ">
   {service.description}
 </p>
+
+<p className="inline-block mt-2 px-4 py-1 text-sm font-semibold text-white bg-sky-600 rounded-full cursor-pointer hover:bg-sky-700 transition">
+  Learn more
+</p>
+
 
               </div>
             </div>

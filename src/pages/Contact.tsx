@@ -109,7 +109,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Location',
-      details: 'Road No.2/9,H No.938,First Floor,Opp GV Residence,Matrusree Nagar,Miyapur,Hyderbad,Telangana,500049',
+      details: 'Road No.2/9,H No.938,First Floor,Opp GV Residence,Mathrusree Nagar,Miyapur,Hyderbad,Telangana,500049',
       link: '#',
     },
   ];

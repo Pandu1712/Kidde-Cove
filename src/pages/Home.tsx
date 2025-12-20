@@ -32,13 +32,6 @@ const Home = () => {
     },
   ];
 
-  const stats = [
-    { number: '500+', label: 'Happy Children' },
-    { number: '50+', label: 'Expert Teachers' },
-    { number: '15+', label: 'Years Experience' },
-    { number: '98%', label: 'Parent Satisfaction' },
-  ];
-
   const programs = [
     {
       title: 'Infant Care',
@@ -75,12 +68,13 @@ const Home = () => {
         </div>
 
         {/* Heading */}
-        <h1 className="text-4xl lg:text-5xl font-extrabold text-gray-900 leading-snug">
-          "Behind every milestone is guidance,
-          <span className="block bg-gradient-to-r from-orange-500 via-pink-500 to-yellow-500 bg-clip-text text-transparent">
-            trust,and belief in a child’s potential.”
-          </span>
-        </h1>
+      <h1
+  style={{ fontFamily: "'Playfair Display', serif" }}
+  className="text-xl lg:text-5xl font-semibold text-gray-900 leading-relaxed italic tracking-wide"
+>
+  “Behind every milestone is guidance, trust, and belief in a child’s potential.”
+</h1>
+
 
         {/* Subtext */}
         <p className="text-lg text-gray-600 max-w-xl leading-relaxed">
@@ -133,31 +127,34 @@ const Home = () => {
     </div>
   </div>
 </section>
-
-
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-            {stats.map((stat, index) => (
+      <About/>
+       <div className="container mx-auto px-4">
+          <div className="text-center mb-16 animate-fadeInUp">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
+              Why Choose <span className="bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">Kiddie-Cove</span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              We provide a nurturing environment where children thrive and develop essential life skills
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {features.map((feature, index) => (
               <div
                 key={index}
-                className="text-center animate-fadeInUp"
+                className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 animate-fadeInUp group"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
-                <div className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-2">
-                  {stat.number}
+                <div className={`w-16 h-16 bg-gradient-to-br ${feature.color} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                  <feature.icon className="text-white" size={32} />
                 </div>
-                <div className="text-gray-600 font-medium">{stat.label}</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3">{feature.title}</h3>
+                <p className="text-gray-600">{feature.description}</p>
               </div>
             ))}
           </div>
         </div>
-      </section>
-
-      <section className="py-20 bg-gradient-to-br from-blue-50 to-cyan-50">
-        {/* ================= MULTI-LANGUAGE QUOTE SECTION ================= */}
-<div className="mb-20 animate-fadeInUp">
-  <div className="bg-white/70 backdrop-blur rounded-3xl shadow-lg p-8 lg:p-12">
+        <div className="mb-20 animate-fadeInUp">
+  <div className="bg-white/70 backdrop-blur rounded-3xl shadow-lg p-8 lg:p-12 mt-14">
 
     {/* ===== Row 1 : Sanskrit + Telugu ===== */}
     <div className="grid md:grid-cols-2 gap-8 text-center mb-10">
@@ -194,37 +191,9 @@ const Home = () => {
 
   </div>
 </div>
-
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16 animate-fadeInUp">
-            <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-              Why Choose <span className="bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">Kiddie-Cove</span>
-            </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              We provide a nurturing environment where children thrive and develop essential life skills
-            </p>
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {features.map((feature, index) => (
-              <div
-                key={index}
-                className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 animate-fadeInUp group"
-                style={{ animationDelay: `${index * 100}ms` }}
-              >
-                <div className={`w-16 h-16 bg-gradient-to-br ${feature.color} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                  <feature.icon className="text-white" size={32} />
-                </div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">{feature.title}</h3>
-                <p className="text-gray-600">{feature.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-      <About/>
       <Services/>
-      <Gallery/>
-      <Blog/>
+     {/*  <Gallery/>
+      <Blog/> */}
 
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">

@@ -21,8 +21,8 @@ const Navbar = ({ currentPage }: NavbarProps) => {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
-    { name: 'Gallery', href: '#gallery' },
-    { name: 'Blog', href: '#blog' },
+   /*  { name: 'Gallery', href: '#gallery' },
+    { name: 'Blog', href: '#blog' }, */
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -43,12 +43,13 @@ const Navbar = ({ currentPage }: NavbarProps) => {
   <img
     src={logo}
     alt="Kiddie-Cove Logo"
-    className="h-14 w-auto object-contain"
+    className="h-20 w-32 object-contain"
   />
 
-  <p className="mt-1 text-[11px] sm:text-xs font-medium text-red-600 tracking-[0.15em] uppercase">
-    Child Development Center
-  </p>
+<p className="-mt-3 text-[9px] sm:text-[8px] font-bold text-red-700 tracking-[0.18em] uppercase">
+  Child Development Center
+</p>
+
 </div>
 
 

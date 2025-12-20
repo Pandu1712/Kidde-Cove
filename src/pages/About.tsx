@@ -49,19 +49,6 @@ const About = () => {
 
   return (
     <div className="pt-24 pb-20 -mt-14">
-      <section className="bg-gradient-to-br from-orange-50 via-pink-50 to-yellow-50 py-20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center animate-fadeInUp">
-            <h1 className="text-5xl lg:text-6xl font-bold text-gray-800 mb-6">
-              About <span className="bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">Kiddie-Cove</span>
-            </h1>
-            <p className="text-xl text-gray-600 leading-relaxed">
-A place where care meets purpose, and every child is supported with patience and understanding.
-Nurturing growth, confidence, and hope—one step at a time.
-              </p>
-          </div>
-        </div>
-      </section>
 
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
@@ -163,33 +150,7 @@ Nurturing growth, confidence, and hope—one step at a time.
 
   </div>
 </section>
-      <section className="py-20 bg-gradient-to-br from-orange-50 via-pink-50 to-yellow-50">
-        <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-2xl shadow-lg text-center animate-fadeInUp">
-              <Award className="w-16 h-16 mx-auto mb-4 text-yellow-500" />
-              <h3 className="text-2xl font-bold text-gray-800 mb-3">Accredited</h3>
-              <p className="text-gray-600">
-                Fully licensed and accredited by national early education standards
-              </p>
-            </div>
-            <div className="bg-white p-8 rounded-2xl shadow-lg text-center animate-fadeInUp" style={{ animationDelay: '100ms' }}>
-              <BookOpen className="w-16 h-16 mx-auto mb-4 text-blue-500" />
-              <h3 className="text-2xl font-bold text-gray-800 mb-3">Certified Teachers</h3>
-              <p className="text-gray-600">
-                All our educators hold advanced degrees in early childhood education
-              </p>
-            </div>
-            <div className="bg-white p-8 rounded-2xl shadow-lg text-center animate-fadeInUp" style={{ animationDelay: '200ms' }}>
-              <Heart className="w-16 h-16 mx-auto mb-4 text-red-500" />
-              <h3 className="text-2xl font-bold text-gray-800 mb-3">Safe & Secure</h3>
-              <p className="text-gray-600">
-                State-of-the-art security systems and comprehensive safety protocols
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+     
     </div>
   );
 };

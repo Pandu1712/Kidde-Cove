@@ -95,7 +95,7 @@ const Footer = () => {
               <li className="flex items-start space-x-3 text-sm text-gray-600">
                 <Phone size={18} className="text-orange-500 mt-0.5 flex-shrink-0" />
                 <a href="tel:9666086096" className="hover:text-orange-500 transition-colors">
-                  +91 9666086096
+                  +91 9666 086 096
                 </a>
               </li>
               <li className="flex items-start space-x-3 text-sm text-gray-600">
@@ -106,7 +106,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-3 text-sm text-gray-600">
                 <MapPin size={18} className="text-orange-500 mt-0.5 flex-shrink-0" />
-                <span>Your Location Here, City, State</span>
+                <span>Road No.2/9,H No.938,First Floor,Opp GV Residence,Mathrusree Nagar,Miyapur,Hyderbad,Telangana,500049</span>
               </li>
             </ul>
           </div>
