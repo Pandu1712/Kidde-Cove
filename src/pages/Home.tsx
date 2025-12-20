@@ -59,62 +59,81 @@ const Home = () => {
 
   return (
     <div className="relative mt-10">
-      <section className="relative min-h-screen flex items-center justify-center pt-20 pb-20 overflow-hidden bg-gradient-to-br from-orange-50 via-pink-50 to-yellow-50 ">
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="animate-fadeInLeft">
-              <div className="inline-flex items-center space-x-2 bg-white px-4 py-2 rounded-full shadow-md mb-6">
-                <Sparkles className="text-yellow-500" size={20} />
-                <span className="text-sm font-medium text-gray-700">Welcome to Kiddie-Cove</span>
-              </div>
-              <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight">
-                Where Little
-                <span className="block bg-gradient-to-r from-orange-500 via-pink-500 to-yellow-500 bg-clip-text text-transparent">
-                  Dreams Grow
-                </span>
-              </h1>
-              <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Nurturing young minds with love, care, and quality education. Creating a foundation for lifelong learning and success.
-              </p>
-              <div className="flex flex-wrap gap-4">
-                <a
-                  href="#contact"
-                  className="group flex items-center space-x-2 bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-4 rounded-full hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
-                >
-                  <span className="font-semibold">Enroll Now</span>
-                  <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
-                </a>
-                <a
-                  href="#about"
-                  className="flex items-center space-x-2 bg-white text-gray-700 px-8 py-4 rounded-full hover:shadow-lg transform hover:scale-105 transition-all duration-300 border-2 border-gray-200"
-                >
-                  <span className="font-semibold">Learn More</span>
-                </a>
-              </div>
+      <section className="relative min-h-[85vh] flex items-center overflow-hidden bg-gradient-to-br from-orange-50 via-pink-50 to-yellow-50">
+  <div className="container mx-auto px-4 relative z-10">
+    <div className="grid lg:grid-cols-2 gap-14 items-center">
+
+      {/* ================= LEFT CONTENT ================= */}
+      <div className="space-y-6 animate-fadeInLeft">
+
+        {/* Badge */}
+        <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur px-4 py-2 rounded-full shadow-sm">
+          <Sparkles size={16} className="text-orange-500" />
+          <span className="text-sm font-medium text-gray-700">
+            Welcome to Kiddie-Cove
+          </span>
+        </div>
+
+        {/* Heading */}
+        <h1 className="text-4xl lg:text-5xl font-extrabold text-gray-900 leading-snug">
+          "Behind every milestone is guidance,
+          <span className="block bg-gradient-to-r from-orange-500 via-pink-500 to-yellow-500 bg-clip-text text-transparent">
+            trust,and belief in a child’s potential.”
+          </span>
+        </h1>
+
+        {/* Subtext */}
+        <p className="text-lg text-gray-600 max-w-xl leading-relaxed">
+          We nurture young minds through compassionate care and structured learning,
+          building confidence and curiosity for lifelong success.
+        </p>
+
+        {/* Buttons */}
+        <div className="flex flex-wrap gap-4 pt-2">
+          <a
+            href="#contact"
+            className="group inline-flex items-center gap-2 bg-gradient-to-r from-orange-500 to-pink-500 text-white px-7 py-3 rounded-full font-semibold hover:shadow-xl hover:scale-105 transition-all"
+          >
+            Enroll Now
+            <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+          </a>
+
+          <a
+            href="#about"
+            className="inline-flex items-center gap-2 bg-white text-gray-700 px-7 py-3 rounded-full font-semibold border border-gray-200 hover:shadow-md hover:scale-105 transition-all"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
+
+      {/* ================= RIGHT IMAGE ================= */}
+      <div className="relative animate-fadeInRight">
+        <img
+          src="https://images.pexels.com/photos/8613090/pexels-photo-8613090.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          alt="Happy children learning"
+          className="rounded-3xl shadow-2xl w-full h-[420px] object-cover"
+        />
+
+        {/* Floating Card */}
+        {/* <div className="absolute -bottom-5 -left-5 bg-white px-5 py-4 rounded-2xl shadow-lg animate-bounce-slow">
+          <div className="flex items-center gap-3">
+            <div className="w-11 h-11 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center">
+              <Award className="text-white" size={22} />
             </div>
-            <div className="relative animate-fadeInRight">
-              <div className="relative">
-                <img
-                  src="https://images.pexels.com/photos/8613090/pexels-photo-8613090.jpeg?auto=compress&cs=tinysrgb&w=1200"
-                  alt="Happy children learning"
-                  className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
-                />
-                <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl animate-bounce-slow">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center">
-                      <Award className="text-white" size={24} />
-                    </div>
-                    <div>
-                      <p className="font-bold text-2xl text-gray-800">15+</p>
-                      <p className="text-sm text-gray-600">Years of Excellence</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div>
+              <p className="font-bold text-xl text-gray-800">15+ Years</p>
+              <p className="text-sm text-gray-600">of Excellence</p>
             </div>
           </div>
         </div>
-      </section>
+ */}
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
@@ -136,6 +155,46 @@ const Home = () => {
       </section>
 
       <section className="py-20 bg-gradient-to-br from-blue-50 to-cyan-50">
+        {/* ================= MULTI-LANGUAGE QUOTE SECTION ================= */}
+<div className="mb-20 animate-fadeInUp">
+  <div className="bg-white/70 backdrop-blur rounded-3xl shadow-lg p-8 lg:p-12">
+
+    {/* ===== Row 1 : Sanskrit + Telugu ===== */}
+    <div className="grid md:grid-cols-2 gap-8 text-center mb-10">
+
+      {/* Sanskrit */}
+      <div className="px-4">
+        <p className="text-xl lg:text-2xl font-semibold text-gray-800 leading-relaxed">
+          बालः न दुर्बलः, शिक्षकः साक्षात् प्रेरकः।
+        </p>
+         <p className="text-xl lg:text-2xl font-semibold text-gray-800 leading-relaxed">
+          अवसरः यत्र, विकासः स्वयम् प्रविशति॥
+        </p>
+      </div>
+
+      {/* Telugu */}
+      <div className="px-4">
+        <p className="text-xl lg:text-2xl font-semibold text-gray-800 leading-relaxed">
+          పిల్లల భవిష్యత్తును కాదు, ఉపాధ్యాయుడు నిజమైన ప్రేరేపకుడు।
+        </p>
+         <p className="text-xl lg:text-2xl font-semibold text-gray-800 leading-relaxed">
+          అవకాశం ఉన్న చోట, అభివృద్ధి సహజంగా ఎదుగుతుంది।
+        </p>
+      </div>
+
+    </div>
+
+    {/* ===== Row 2 : English (Centered) ===== */}
+    <div className="text-center max-w-3xl mx-auto border-t border-gray-200 pt-8">
+      <p className="text-lg lg:text-xl text-black-600 italic leading-relaxed">
+        “No child is weak; the teacher is the true enabler.
+        Wherever opportunity exists, growth patiently awaits.”
+      </p>
+    </div>
+
+  </div>
+</div>
+
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fadeInUp">
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-4">

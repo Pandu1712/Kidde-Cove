@@ -97,7 +97,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      details: '+91 9666086096',
+      details: '+91 9666 086 096',
       link: 'tel:9666086096',
     },
     {
@@ -109,7 +109,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Location',
-      details: 'Your Location Here, City, State',
+      details: 'Road No.2/9,H No.938,First Floor,Opp GV Residence,Matrusree Nagar,Miyapur,Hyderbad,Telangana,500049',
       link: '#',
     },
   ];
@@ -161,7 +161,7 @@ const Contact = () => {
                     <Clock className="text-orange-500 flex-shrink-0 mt-1" size={24} />
                     <div>
                       <h4 className="font-bold text-gray-800 mb-2">Opening Hours</h4>
-                      <p className="text-gray-600 text-sm mb-1">Monday - Friday: 8:00 AM - 6:00 PM</p>
+                      <p className="text-gray-600 text-sm mb-1">Monday - Friday: 9:00 AM - 7:00 PM</p>
                       <p className="text-gray-600 text-sm mb-1">Saturday: 9:00 AM - 2:00 PM</p>
                       <p className="text-gray-600 text-sm">Sunday: Closed</p>
                     </div>

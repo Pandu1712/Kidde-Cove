@@ -38,14 +38,20 @@ const Navbar = ({ currentPage }: NavbarProps) => {
   href="/"
   className="flex items-center space-x-3 group"
 >
- {/* LOGO */}
-<div className="h-16 flex items-center">
+{/* LOGO */}
+<div className="flex flex-col items-center justify-center leading-none">
   <img
     src={logo}
     alt="Kiddie-Cove Logo"
-    className="h-full w-auto object-contain"
+    className="h-14 w-auto object-contain"
   />
+
+  <p className="mt-1 text-[11px] sm:text-xs font-medium text-red-600 tracking-[0.15em] uppercase">
+    Child Development Center
+  </p>
 </div>
+
+
 
 
   {/* BRAND TEXT */}
