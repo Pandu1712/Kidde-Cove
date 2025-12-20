@@ -8,26 +8,26 @@ const Home = () => {
   const features = [
     {
       icon: BookOpen,
-      title: 'Quality Education',
-      description: 'Comprehensive curriculum designed for holistic child development',
+      title: 'Creative Activities',
+      description: ' Creative activities nurturing autistic childrens growth',
       color: 'from-blue-400 to-blue-600',
     },
     {
       icon: Users,
-      title: 'Experienced Teachers',
-      description: 'Certified educators passionate about nurturing young minds',
+      title: 'Quality Therapy',
+      description: 'Delivering quality therapy with compassionate care',
       color: 'from-green-400 to-green-600',
     },
     {
       icon: Palette,
-      title: 'Creative Activities',
-      description: 'Art, music, and hands-on learning experiences',
+      title: 'Experienced Therapist',
+      description: 'Guided by qualified, experienced therapists',
       color: 'from-pink-400 to-pink-600',
     },
     {
       icon: Heart,
       title: 'Safe Environment',
-      description: 'Secure, clean, and child-friendly facilities',
+      description: 'A safe and welcoming environment for children',
       color: 'from-red-400 to-red-600',
     },
   ];
@@ -51,82 +51,68 @@ const Home = () => {
   ];
 
   return (
-    <div className="relative mt-10">
-      <section className="relative min-h-[85vh] flex items-center overflow-hidden bg-gradient-to-br from-orange-50 via-pink-50 to-yellow-50">
-  <div className="container mx-auto px-4 relative z-10">
-    <div className="grid lg:grid-cols-2 gap-14 items-center">
+    <div className="relative mt-14">
+  <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
 
-      {/* ================= LEFT CONTENT ================= */}
-      <div className="space-y-6 animate-fadeInLeft">
+  {/* ================= BACKGROUND IMAGE ================= */}
+  <div
+    className="absolute inset-0 bg-cover bg-center"
+    style={{
+      backgroundImage:
+        "url(https://images.pexels.com/photos/8613090/pexels-photo-8613090.jpeg?auto=compress&cs=tinysrgb&w=1600)",
+    }}
+  />
 
-        {/* Badge */}
-        <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur px-4 py-2 rounded-full shadow-sm">
-          <Sparkles size={16} className="text-orange-500" />
-          <span className="text-sm font-medium text-gray-700">
-            Welcome to Kiddie-Cove
-          </span>
-        </div>
+  {/* ================= OVERLAY ================= */}
+  <div className="absolute inset-0 bg-black/55 backdrop-blur-[1px]" />
 
-        {/* Heading */}
-      <h1
-  style={{ fontFamily: "'Playfair Display', serif" }}
-  className="text-xl lg:text-5xl font-semibold text-gray-900 leading-relaxed italic tracking-wide"
->
-  “Behind every milestone is guidance, trust, and belief in a child’s potential.”
-</h1>
+  {/* ================= CONTENT ================= */}
+  <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white animate-fadeInUp">
 
+    {/* Badge */}
+    <div className="inline-flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full mb-6">
+      <Sparkles size={16} className="text-yellow-400" />
+      <span className="text-sm font-medium tracking-wide">
+        Welcome to Kiddie-Cove
+      </span>
+    </div>
 
-        {/* Subtext */}
-        <p className="text-lg text-gray-600 max-w-xl leading-relaxed">
-          We nurture young minds through compassionate care and structured learning,
-          building confidence and curiosity for lifelong success.
-        </p>
+    {/* Heading */}
+    <h1
+      style={{ fontFamily: "'Times New Roman', Times, serif" }}
+      className="text-3xl sm:text-4xl lg:text-6xl font-semibold leading-snug tracking-wide mb-6"
+    >
+      Behind every milestone is guidance, trust,
+      <br className="hidden sm:block" />
+      and belief in a child’s potential.
+    </h1>
 
-        {/* Buttons */}
-        <div className="flex flex-wrap gap-4 pt-2">
-          <a
-            href="#contact"
-            className="group inline-flex items-center gap-2 bg-gradient-to-r from-orange-500 to-pink-500 text-white px-7 py-3 rounded-full font-semibold hover:shadow-xl hover:scale-105 transition-all"
-          >
-            Enroll Now
-            <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-          </a>
+    {/* Subtext */}
+    <p className="text-base sm:text-lg lg:text-xl text-gray-200 max-w-2xl mx-auto mb-10 leading-relaxed">
+      We nurture young minds through compassionate care and structured learning,
+      building confidence, communication, and curiosity for lifelong success.
+    </p>
 
-          <a
-            href="#about"
-            className="inline-flex items-center gap-2 bg-white text-gray-700 px-7 py-3 rounded-full font-semibold border border-gray-200 hover:shadow-md hover:scale-105 transition-all"
-          >
-            Learn More
-          </a>
-        </div>
-      </div>
+    {/* CTA Buttons */}
+    <div className="flex flex-wrap justify-center gap-4">
+      <a
+        href="#contact"
+        className="inline-flex items-center gap-2 bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-8 py-4 rounded-full font-bold text-lg hover:scale-105 hover:shadow-2xl transition-all"
+      >
+        Get Assessed Today
+        <ArrowRight size={20} />
+      </a>
 
-      {/* ================= RIGHT IMAGE ================= */}
-      <div className="relative animate-fadeInRight">
-        <img
-          src="https://images.pexels.com/photos/8613090/pexels-photo-8613090.jpeg?auto=compress&cs=tinysrgb&w=1200"
-          alt="Happy children learning"
-          className="rounded-3xl shadow-2xl w-full h-[420px] object-cover"
-        />
-
-        {/* Floating Card */}
-        {/* <div className="absolute -bottom-5 -left-5 bg-white px-5 py-4 rounded-2xl shadow-lg animate-bounce-slow">
-          <div className="flex items-center gap-3">
-            <div className="w-11 h-11 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center">
-              <Award className="text-white" size={22} />
-            </div>
-            <div>
-              <p className="font-bold text-xl text-gray-800">15+ Years</p>
-              <p className="text-sm text-gray-600">of Excellence</p>
-            </div>
-          </div>
-        </div>
- */}
-      </div>
-
+      <a
+        href="#about"
+        className="inline-flex items-center gap-2 bg-white/90 text-gray-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:scale-105 transition-all"
+      >
+        Learn More
+      </a>
     </div>
   </div>
 </section>
+
       <About/>
        <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fadeInUp">
@@ -171,11 +157,12 @@ const Home = () => {
 
       {/* Telugu */}
       <div className="px-4">
-        <p className="text-xl lg:text-2xl font-semibold text-gray-800 leading-relaxed">
-          పిల్లల భవిష్యత్తును కాదు, ఉపాధ్యాయుడు నిజమైన ప్రేరేపకుడు।
+        <p className="text-xl lg:text-xl font-semibold text-gray-800 leading-relaxed">
+          పిల్లల బలహీనులు కారు, ఉపాద్యాయుడు నిజమైన ప్రేరేపకుడు 
+
         </p>
          <p className="text-xl lg:text-2xl font-semibold text-gray-800 leading-relaxed">
-          అవకాశం ఉన్న చోట, అభివృద్ధి సహజంగా ఎదుగుతుంది।
+          అవకాశం ఉన్న చోట అభివృద్ధి సావధానంగా ఎదురుచూస్తుంది
         </p>
       </div>
 
@@ -195,7 +182,7 @@ const Home = () => {
      {/*  <Gallery/>
       <Blog/> */}
 
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fadeInUp">
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
@@ -235,23 +222,25 @@ const Home = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="py-20 bg-gradient-to-br from-orange-50 via-pink-50 to-yellow-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center animate-fadeInUp">
             <Music className="w-16 h-16 mx-auto mb-6 text-orange-500" />
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
-              Ready to Start Your Child's Journey?
+             Concerned about your child's development?
+
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Join our loving community and give your child the best start in life
+              Enhance Speech, Behaviour, Motor, and Social Skills With Professional Care and Support!
+
             </p>
             <a
               href="#contact"
               className="inline-flex items-center space-x-2 bg-gradient-to-r from-orange-500 to-pink-500 text-white px-10 py-4 rounded-full hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
             >
-              <span className="font-semibold text-lg">Schedule a Visit</span>
+              <span className="font-semibold text-lg">Schedule a visit today.</span>
               <ArrowRight size={20} />
             </a>
           </div>

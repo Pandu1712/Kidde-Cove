@@ -249,9 +249,9 @@ const Contact = () => {
                       className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-orange-500 focus:outline-none transition-colors"
                     >
                       <option value="">Select age range</option>
-                      <option value="6 weeks - 18 months">6 weeks - 18 months</option>
-                      <option value="18 months - 3 years">18 months - 3 years</option>
-                      <option value="3 - 5 years">3 - 5 years</option>
+                      <option value="1 Years - 3 Years">1 Year - 3 Years</option>
+                      <option value="3 years-6 Years">3 years-6 Years</option>
+                      <option value="6 years-12 Years">6 years-12 Years</option>
                     </select>
                   </div>
 
