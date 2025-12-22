@@ -211,7 +211,7 @@ const Home = () => {
         className="relative py-24 bg-center bg-cover bg-no-repeat"
         style={{
           backgroundImage:
-            "url('https://images.pexels.com/photos/8613090/pexels-photo-8613090.jpeg?auto=compress&cs=tinysrgb&w=1600')",
+            "url('https://res.cloudinary.com/dd4oiwnep/image/upload/WhatsApp_Image_2025-12-22_at_15.00.23_f0e1240c_tmlbry.jpg')",
         }}
       >
         {/* Overlay */}

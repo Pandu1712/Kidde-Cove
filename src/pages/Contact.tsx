@@ -302,18 +302,43 @@ const Contact = () => {
       </p>
 
       {/* Map Card */}
-      <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
-        <div className="relative w-full h-[300px] sm:h-[380px] lg:h-[450px]">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3443.6333093654966!2d78.3684795!3d17.491339!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb930061477d89%3A0x7d4f2efc95f168a3!2sKiddie%20Cove%20Child%20Development%20Center!5e1!3m2!1sen!2sin!4v1766241677852!5m2!1sen!2sin"
-            className="absolute inset-0 w-full h-full border-0"
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            allowFullScreen
-            title="Kiddie Cove Child Development Center Location"
-          />
-        </div>
-      </div>
+     <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100 relative">
+
+  {/* Map Container */}
+  <div className="relative w-full h-[300px] sm:h-[380px] lg:h-[450px]">
+
+    {/* Google Map Iframe */}
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3443.6333093654966!2d78.3684795!3d17.491339!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb930061477d89%3A0x7d4f2efc95f168a3!2sKiddie%20Cove%20Child%20Development%20Center!5e1!3m2!1sen!2sin!4v1766241677852!5m2!1sen!2sin"
+      className="absolute inset-0 w-full h-full border-0 pointer-events-none"
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      allowFullScreen
+      title="Kiddie Cove Child Development Center Location"
+    />
+
+    {/* CLICK OVERLAY */}
+    <a
+      href="https://www.google.com/maps/place/Kiddie+Cove+Child+Development+Center/@17.491339,78.3684795,17z"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="absolute inset-0 z-10 cursor-pointer"
+      aria-label="Open location in Google Maps"
+    />
+  </div>
+
+  {/* Optional Footer CTA */}
+  <div className="p-4 text-center bg-gray-50">
+    <a
+      href="https://www.google.com/maps/place/Kiddie+Cove+Child+Development+Center/@17.491339,78.3684795,17z"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block text-indigo-600 font-semibold hover:underline"
+    >
+      📍 View on Google Maps
+    </a>
+  </div>
+</div>
 
       {/* Optional Address */}
       <p className="mt-6 text-gray-700 text-base">
