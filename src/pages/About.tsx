@@ -56,7 +56,7 @@ const About = () => {
             <div className="animate-fadeInLeft">
               <div className="relative">
                 <img
-                  src="https://images.pexels.com/photos/8613317/pexels-photo-8613317.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                  src="https://res.cloudinary.com/dd4oiwnep/image/upload/WhatsApp_Image_2025-12-20_at_20.55.44_aeaa1b40_strkdw.jpg"
                   alt="Children learning together"
                   className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
                 />

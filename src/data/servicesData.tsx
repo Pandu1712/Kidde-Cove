@@ -29,11 +29,8 @@ export const servicesData: Service[] = [
     icon: Mic,
     description:"Helping children develop clear articulation, communication, language skills, and confidence in expressing themselves.",
     images: [
-      "https://images.pexels.com/photos/8613319/pexels-photo-8613319.jpeg",
-      "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg",
-      "https://images.pexels.com/photos/8613090/pexels-photo-8613090.jpeg",
-      "https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg",
-      "https://images.pexels.com/photos/5905710/pexels-photo-5905710.jpeg",
+   "https://res.cloudinary.com/dd4oiwnep/image/upload/WhatsApp_Image_2025-12-20_at_20.57.46_fe5bdcd5_acddhz.jpg",
+   "https://res.cloudinary.com/dd4oiwnep/image/upload/WhatsApp_Image_2025-12-20_at_20.57.48_49c55b82_phjfeq.jpg"
     ],
     content: (
       <>
@@ -98,11 +95,8 @@ export const servicesData: Service[] = [
         description:"Helping children develop clear articulation, communication, language skills, and confidence in expressing themselves.",
 
     images: [
-      "https://images.pexels.com/photos/4101143/pexels-photo-4101143.jpeg",
-      "https://images.pexels.com/photos/5905710/pexels-photo-5905710.jpeg",
-      "https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg",
-      "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg",
-      "https://images.pexels.com/photos/8613319/pexels-photo-8613319.jpeg",
+      "https://res.cloudinary.com/dd4oiwnep/image/upload/WhatsApp_Image_2025-12-20_at_20.57.59_c2ba1284_wn3wmv.jpg",
+      "https://res.cloudinary.com/dd4oiwnep/image/upload/WhatsApp_Image_2025-12-20_at_20.58.00_2872b429_zs4bb8.jpg"
     ],
     content: (
       <>
@@ -155,11 +149,8 @@ export const servicesData: Service[] = [
         description:"Helping children develop clear articulation, communication, language skills, and confidence in expressing themselves.",
 
     images: [
-      "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg",
-      "https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg",
-      "https://images.pexels.com/photos/5905710/pexels-photo-5905710.jpeg",
-      "https://images.pexels.com/photos/8613090/pexels-photo-8613090.jpeg",
-      "https://images.pexels.com/photos/8613319/pexels-photo-8613319.jpeg",
+     "https://res.cloudinary.com/dd4oiwnep/image/upload/WhatsApp_Image_2025-12-20_at_20.58.55_c625f47f_uo7tqf.jpg",
+     "https://res.cloudinary.com/dd4oiwnep/image/upload/WhatsApp_Image_2025-12-20_at_20.58.55_7a5c113b_vfslbg.jpg"
     ],
     content: (
       <>
@@ -206,11 +197,8 @@ export const servicesData: Service[] = [
         description:"Helping children develop clear articulation, communication, language skills, and confidence in expressing themselves.",
 
     images: [
-      "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg",
-      "https://images.pexels.com/photos/5905710/pexels-photo-5905710.jpeg",
-      "https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg",
-      "https://images.pexels.com/photos/8613090/pexels-photo-8613090.jpeg",
-      "https://images.pexels.com/photos/8613319/pexels-photo-8613319.jpeg",
+      "https://res.cloudinary.com/dd4oiwnep/image/upload/WhatsApp_Image_2025-12-20_at_20.58.00_ebba066d_ytwg4t.jpg",
+      "https://res.cloudinary.com/dd4oiwnep/image/upload/WhatsApp_Image_2025-12-20_at_20.58.00_f4fb3436_flgzmd.jpg"
     ],
     content: (
       <>
@@ -254,11 +242,8 @@ export const servicesData: Service[] = [
         description:"Helping children develop clear articulation, communication, language skills, and confidence in expressing themselves.",
 
     images: [
-      "https://images.pexels.com/photos/4145356/pexels-photo-4145356.jpeg",
-      "https://images.pexels.com/photos/8613319/pexels-photo-8613319.jpeg",
-      "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg",
-      "https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg",
-      "https://images.pexels.com/photos/5905710/pexels-photo-5905710.jpeg",
+      "https://res.cloudinary.com/dd4oiwnep/image/upload/WhatsApp_Image_2025-12-20_at_20.59.45_57d5f5cd_o9s4y0.jpg",
+      "https://res.cloudinary.com/dd4oiwnep/image/upload/WhatsApp_Image_2025-12-20_at_20.59.45_7d8c0ac7_k29u2z.jpg"
     ],
     content: (
       <>
@@ -299,11 +284,8 @@ export const servicesData: Service[] = [
         description:"Helping children develop clear articulation, communication, language skills, and confidence in expressing themselves.",
 
     images: [
-      "https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg",
-      "https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg",
-      "https://images.pexels.com/photos/5905710/pexels-photo-5905710.jpeg",
-      "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg",
-      "https://images.pexels.com/photos/8613319/pexels-photo-8613319.jpeg",
+      "https://res.cloudinary.com/dd4oiwnep/image/upload/WhatsApp_Image_2025-12-20_at_21.00.27_ea48110c_nq8uwt.jpg",
+      "https://res.cloudinary.com/dd4oiwnep/image/upload/WhatsApp_Image_2025-12-20_at_21.00.27_4f3ef4a5_rp6geh.jpg"
     ],
     content: (
       <>
@@ -342,11 +324,8 @@ export const servicesData: Service[] = [
         description:"Helping children develop clear articulation, communication, language skills, and confidence in expressing themselves.",
 
     images: [
-      "https://images.pexels.com/photos/8613090/pexels-photo-8613090.jpeg",
-      "https://images.pexels.com/photos/8613319/pexels-photo-8613319.jpeg",
-      "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg",
-      "https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg",
-      "https://images.pexels.com/photos/5905710/pexels-photo-5905710.jpeg",
+      "https://res.cloudinary.com/dd4oiwnep/image/upload/unnamed_5_uc5ll9.png",
+      "https://res.cloudinary.com/dd4oiwnep/image/upload/unnamed_4_vkisqd.png"
     ],
     content: (
       <>
@@ -382,11 +361,9 @@ export const servicesData: Service[] = [
         description:"Helping children develop clear articulation, communication, language skills, and confidence in expressing themselves.",
 
     images: [
-      "https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg",
-      "https://images.pexels.com/photos/5905710/pexels-photo-5905710.jpeg",
-      "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg",
-      "https://images.pexels.com/photos/8613090/pexels-photo-8613090.jpeg",
-      "https://images.pexels.com/photos/8613319/pexels-photo-8613319.jpeg",
+     
+"https://res.cloudinary.com/dd4oiwnep/image/upload/unnamed_xmgzax.png",
+"https://res.cloudinary.com/dd4oiwnep/image/upload/unnamed_1_enyj0g.png"
     ],
     content: (
       <>
@@ -422,11 +399,8 @@ export const servicesData: Service[] = [
         description:"Helping children develop clear articulation, communication, language skills, and confidence in expressing themselves.",
 
     images: [
-      "https://images.pexels.com/photos/5905710/pexels-photo-5905710.jpeg",
-      "https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg",
-      "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg",
-      "https://images.pexels.com/photos/8613319/pexels-photo-8613319.jpeg",
-      "https://images.pexels.com/photos/8613090/pexels-photo-8613090.jpeg",
+      "https://res.cloudinary.com/dd4oiwnep/image/upload/unnamed_2_y2wdy7.png",
+      "https://res.cloudinary.com/dd4oiwnep/image/upload/Screenshot_2025-12-22_065238_mlgkq9.png"
     ],
     content: (
       <>

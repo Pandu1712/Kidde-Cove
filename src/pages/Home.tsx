@@ -32,23 +32,6 @@ const Home = () => {
     },
   ];
 
-  const programs = [
-    {
-      title: 'Infant Care',
-      age: '6 weeks - 18 months',
-      image: 'https://images.pexels.com/photos/1648387/pexels-photo-1648387.jpeg?auto=compress&cs=tinysrgb&w=800',
-    },
-    {
-      title: 'Toddler Program',
-      age: '18 months - 3 years',
-      image: 'https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg?auto=compress&cs=tinysrgb&w=800',
-    },
-    {
-      title: 'Preschool',
-      age: '3 - 5 years',
-      image: 'https://images.pexels.com/photos/8613319/pexels-photo-8613319.jpeg?auto=compress&cs=tinysrgb&w=800',
-    },
-  ];
 
   return (
     <div className="relative mt-28">
@@ -59,7 +42,7 @@ const Home = () => {
     className="absolute inset-0 bg-cover bg-center"
     style={{
       backgroundImage:
-        "url(https://res.cloudinary.com/dd4oiwnep/image/upload/v1766241430/ChatGPT_Image_Dec_20_2025_08_06_51_PM_h23dl9.png)",
+        "url(https://res.cloudinary.com/dd4oiwnep/image/upload/WhatsApp_Image_2025-12-20_at_20.54.58_2423afc8_orbayg.jpg)",
     }}
   />
 
@@ -238,7 +221,7 @@ const Home = () => {
     <div className="max-w-4xl mx-auto text-center animate-fadeInUp text-white">
 
       {/* Icon */}
-      <Music className="w-16 h-16 mx-auto mb-6 text-orange-400" />
+     
 
       {/* Heading */}
       <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-snug">
